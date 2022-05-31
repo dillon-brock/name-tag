@@ -27,3 +27,41 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+
+p {
+    background: rgb(210, 29, 29);
+    border-radius: 10px;
+}
+
+span {
+    display: block;
+}
+
+#name-tag {
+    width: 275px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    text-align: center;
+
+}
+
+#greeting-display {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#intro-display {
+    color: white;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#name-display {
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: cursive;
+}
