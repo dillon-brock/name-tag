@@ -11,6 +11,8 @@ nameInput.addEventListener('input', () => {
     nameDisplay.textContent = name;
 });
 
+pronounDisplay.style.display = 'none';
+
 pronounInput.addEventListener('input', () => {
     let pronouns = pronounInput.value;
     if (pronouns) {
@@ -19,7 +21,7 @@ pronounInput.addEventListener('input', () => {
         nameDisplay.style.paddingBottom = '15px';
     } else {
         pronounDisplay.style.display = 'none';
-        nameDisplay.style.paddingBottom = '25px';
+        nameDisplay.style.paddingBottom = '35px';
     }
 });
 

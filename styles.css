@@ -29,7 +29,7 @@ footer {
 }
 
 p {
-    background: rgb(210, 29, 29);
+    background: rgb(65, 127, 15);
     border-radius: 10px;
 }
 
@@ -38,11 +38,14 @@ span {
 }
 
 #name-tag {
-    width: 275px;
+    width: 350px;
     padding-top: 10px;
     padding-bottom: 25px;
     text-align: center;
-
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
 }
 
 #greeting-display {
@@ -61,14 +64,20 @@ span {
 
 #name-display {
     background-color: white;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-size: 1.75rem;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+label {
+    margin-left: 15px;
 }
 
 input {
     display: block;
     margin-bottom: 20px;
+    margin-left: 15px;
 }
 
 #pronoun-display {
