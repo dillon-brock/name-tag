@@ -63,5 +63,17 @@ span {
     background-color: white;
     padding-top: 25px;
     padding-bottom: 25px;
-    font-family: cursive;
+    font-size: 1.75rem;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#pronoun-display {
+    background-color: white;
+    padding-bottom: 15px;
+    margin-top: 0;
+    font-size: 1.3rem;
 }
