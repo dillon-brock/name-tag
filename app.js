@@ -1,10 +1,11 @@
 // grab DOM elements
 
 const nameInput = document.getElementById('name-input');
+const nameDisplay = document.getElementById('name-display');
 
 nameInput.addEventListener('input', () => {
     let name = nameInput.value;
-    console.log(name);
+    nameDisplay.textContent = name;
 });
 
 // set event listeners
