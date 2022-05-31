@@ -1,7 +1,10 @@
 // grab DOM elements
 
 const nameInput = document.getElementById('name-input');
-console.log(nameInput);
+
+nameInput.addEventListener('input', () => {
+    console.log('input handled!');
+});
 
 // set event listeners
     // get info from user input
