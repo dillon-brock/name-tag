@@ -3,7 +3,8 @@
 const nameInput = document.getElementById('name-input');
 
 nameInput.addEventListener('input', () => {
-    console.log('input handled!');
+    let name = nameInput.value;
+    console.log(name);
 });
 
 // set event listeners
