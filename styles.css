@@ -28,21 +28,25 @@ footer {
     background-color: var(--footer-background);
 }
 
-p {
-    background: rgb(65, 127, 15);
-    border-radius: 10px;
-}
-
 span {
     display: block;
 }
 
+img {
+    width: 57px;
+    height: auto;
+    position: absolute;
+    left: 24px;
+    top: 15px;
+}
+
 #name-tag {
+    background-color: rgb(65, 127, 15);
+    border-radius: 10px;
     width: 350px;
     padding-top: 10px;
     padding-bottom: 25px;
     text-align: center;
-    justify-content: center;
     margin: 0 auto;
     position: relative;
     top: 100px;
