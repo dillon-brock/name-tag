@@ -27,3 +27,66 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+
+span {
+    display: block;
+}
+
+#flower-sticker { 
+    width: 57px;
+    height: auto;
+    position: absolute;
+    left: 24px;
+    top: 15px;
+}
+
+#name-tag {
+    background-color: rgb(65, 127, 15);
+    border-radius: 10px;
+    width: 350px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+
+#greeting-display {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#intro-display {
+    color: white;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#name-display {
+    background-color: white;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+label {
+    margin-left: 15px;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+#pronoun-display {
+    background-color: white;
+    padding-bottom: 15px;
+    margin-top: 0;
+    font-size: 1.3rem;
+}

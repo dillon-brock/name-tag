@@ -1,3 +1,11 @@
+### State:
+
+Name - lives in input
+
+### Events:
+
+'input' event - when users type in input box
+
 ## The Golden Rule:
 
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
