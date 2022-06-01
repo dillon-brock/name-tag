@@ -32,7 +32,7 @@ span {
     display: block;
 }
 
-img {
+#flower-sticker { 
     width: 57px;
     height: auto;
     position: absolute;
